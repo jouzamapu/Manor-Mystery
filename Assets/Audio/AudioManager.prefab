@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7470799084314603755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3562157397585666170}
+  - component: {fileID: 2762990338216854746}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3562157397585666170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470799084314603755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.80444, y: 197.09404, z: 4.9132843}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2762990338216854746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470799084314603755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e302646374442a646ae6e6488eb262d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: LibraryBGM
+    clip: {fileID: 8300000, guid: 726542e9b0dccd042af9f141286f09e5, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: MenuBGM
+    clip: {fileID: 8300000, guid: a88aaf87a8727ac4c92f7a22a60d6cc0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: RainyAmbience
+    clip: {fileID: 8300000, guid: a98ce566567a0a444bb88d279ac7aaf1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: DoorOpenClose
+    clip: {fileID: 8300000, guid: f35ae309dc29ab645b463c11c572dc66, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: SafeOpen
+    clip: {fileID: 8300000, guid: 29f797cc4ae59fa49a68c26396354ef0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: SafeWrong
+    clip: {fileID: 8300000, guid: e66aa468f8486a345947d1bfc95fcbf9, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: KeypadInput
+    clip: {fileID: 8300000, guid: 3a0acd0d4a719a640a44dd448f0a409e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: TypeUI
+    clip: {fileID: 8300000, guid: e85d343134895ca45bb7cf36f13d32b3, type: 3}
+    volume: 0.03
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: PhoneOutgoing
+    clip: {fileID: 8300000, guid: ccbabfa002631fe4abd93fa74ab42288, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: Beep
+    clip: {fileID: 8300000, guid: 7f2bd1764f1a4a242acf6be9bf44cb47, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: GardenAmbience
+    clip: {fileID: 8300000, guid: 4978921b852596941bdd4be4c06f9df5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: ClueSFX
+    clip: {fileID: 8300000, guid: 2d8af17f83284a842ae065dd7e798301, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: ElenaSigh
+    clip: {fileID: 8300000, guid: e84a6b19927d9054f9b4692abc1ff81b, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
+  - name: HangupSFX
+    clip: {fileID: 8300000, guid: 06d483ad96e44a64fa3d5792420b153d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: 0}
